@@ -1,0 +1,5 @@
+rootProject.name = 'geoFencing'
+include ':react-native-simple-native-geofencing'
+project(':react-native-simple-native-geofencing').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-simple-native-geofencing/android')
+
+include ':app'
